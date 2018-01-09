@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.android.calculator.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operand 1 :"
+        />
+    <EditText
+        android:id="@+id/operand_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Operand 2 :"
+            />
+        <EditText
+            android:id="@+id/operand_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+    </LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button_plus"
+        android:layout_width="75dp"
+        android:layout_height="58dp"
+        android:text="+"
+        />
+    <Button
+        android:id="@+id/button_minus"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/button_ori"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/button_divide"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:text="/" />
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_max"
+            android:layout_width="75dp"
+            android:layout_height="58dp"
+            android:text="max" />
+        <Button
+            android:id="@+id/button2_min"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:text="min" />
+
+        <Button
+            android:id="@+id/button_abs"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="abs" />
+
+        <Button
+            android:id="@+id/button_sqrt"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="sqrt" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_signum"
+            android:layout_width="75dp"
+            android:layout_height="58dp"
+            android:text="signum" />
+        <Button
+            android:id="@+id/button_pow"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:text="pow" />
+
+        <Button
+            android:id="@+id/button_hypot"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="hypot" />
+
+        <Button
+            android:id="@+id/button_log"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="log" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="75dp"
+            android:layout_height="58dp"
+            android:text="Zec->Bin" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:text="Bin->Zec" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Hexa->Zec" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="Zec->Hexa" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
